@@ -1,4 +1,4 @@
-#! urs/bin/env code
+#! /usr/bin/env code
 import inquirer from "inquirer";
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 const answers = await inquirer.prompt([{
@@ -11,10 +11,10 @@ Please Guess the number between 1-6:`,
 if (answers.guessedNumber === randomNumber) {
     console.log("Congratulations, you guess the right number!");
 }
-else if (answers.guessedNumber > randomNumber) {
+else if (answers.guessedNumber >= randomNumber) {
     console.log("Too high, Try Again!");
 }
-else if (answers.guessedNumber < randomNumber) {
+else if (answers.guessedNumber <= randomNumber) {
     console.log("Too low, Try Again!");
 }
 else {
