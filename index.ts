@@ -1,4 +1,4 @@
-#! /usr/bin/env code
+#! /usr/bin/env node
 import inquirer  from "inquirer";
 
 const randomNumber = Math.floor(Math.random()* 6 + 1);
@@ -17,5 +17,5 @@ if(answers.guessedNumber === randomNumber){
 }else if(answers.guessedNumber <= randomNumber){
     console.log("Too low, Try Again!");
 }else{
-        console.log("Please enter the valid number!")
+        console.log("Please enter the valid number!");
     }

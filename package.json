@@ -1,6 +1,6 @@
 {
-  "name": "cli-number-guessing-game-x2",
-  "version": "1.0.3",
+  "name": "@mishalzubair/cli-number-guessing",
+  "version": "2.0.5",
   "description": "This is a cli based number guessing game",
   "main": "index.js",
   "type": "module",
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mishalzubair/cli-number-guessing": "^2.0.5",
     "@types/inquirer": "^9.0.7",
     "cli-number-guessing-game-x2": "^1.0.3",
     "inquirer": "^9.2.16"
